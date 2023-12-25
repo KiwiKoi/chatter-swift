@@ -9,6 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        NavigationStack{
+            Form{
+                Section{
+                    Text("Hello There")
+                }
+            }
+            .navigationTitle("Chatter Swift")
+        }
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
