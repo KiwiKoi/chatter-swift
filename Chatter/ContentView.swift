@@ -10,12 +10,16 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationStack{
-            Form{
-                Section{
-                    Text("Hello There")
+            Text("Nav Text")
+            .navigationTitle("Chatter Swift")
+            .toolbar{
+                Button("button 1"){
+                    print("button 1 pressed")
+                }
+                Button("button 2"){
+                    print("button 2 pressed")
                 }
             }
-            .navigationTitle("Chatter Swift")
         }
         VStack {
             Image(systemName: "globe")
