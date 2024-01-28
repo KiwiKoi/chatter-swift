@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65192FF92B66A6A500814C89 /* postData.json in Resources */ = {isa = PBXBuildFile; fileRef = 65192FF82B66A6A500814C89 /* postData.json */; };
+		65192FFB2B66A79400814C89 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65192FFA2B66A79400814C89 /* ModelData.swift */; };
+		65192FFD2B66A7E500814C89 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65192FFC2B66A7E500814C89 /* Post.swift */; };
+		65192FFF2B66A95700814C89 /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65192FFE2B66A95700814C89 /* PostList.swift */; };
+		651930012B66AB1E00814C89 /* PostRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651930002B66AB1E00814C89 /* PostRow.swift */; };
+		651930032B66AC5600814C89 /* PostDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651930022B66AC5600814C89 /* PostDetail.swift */; };
 		6595B1292B39C52F0065C2E5 /* ChatterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6595B1282B39C52F0065C2E5 /* ChatterApp.swift */; };
 		6595B12B2B39C52F0065C2E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6595B12A2B39C52F0065C2E5 /* ContentView.swift */; };
 		6595B12D2B39C5300065C2E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6595B12C2B39C5300065C2E5 /* Assets.xcassets */; };
@@ -34,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65192FF82B66A6A500814C89 /* postData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = postData.json; sourceTree = "<group>"; };
+		65192FFA2B66A79400814C89 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		65192FFC2B66A7E500814C89 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		65192FFE2B66A95700814C89 /* PostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
+		651930002B66AB1E00814C89 /* PostRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRow.swift; sourceTree = "<group>"; };
+		651930022B66AC5600814C89 /* PostDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetail.swift; sourceTree = "<group>"; };
 		6595B1252B39C52F0065C2E5 /* Chatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6595B1282B39C52F0065C2E5 /* ChatterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatterApp.swift; sourceTree = "<group>"; };
 		6595B12A2B39C52F0065C2E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,9 +109,15 @@
 			children = (
 				6595B1282B39C52F0065C2E5 /* ChatterApp.swift */,
 				6595B12A2B39C52F0065C2E5 /* ContentView.swift */,
+				65192FFE2B66A95700814C89 /* PostList.swift */,
 				6595B12C2B39C5300065C2E5 /* Assets.xcassets */,
 				6595B12E2B39C5300065C2E5 /* Chatter.entitlements */,
 				6595B12F2B39C5300065C2E5 /* Preview Content */,
+				65192FF82B66A6A500814C89 /* postData.json */,
+				65192FFA2B66A79400814C89 /* ModelData.swift */,
+				65192FFC2B66A7E500814C89 /* Post.swift */,
+				651930002B66AB1E00814C89 /* PostRow.swift */,
+				651930022B66AC5600814C89 /* PostDetail.swift */,
 			);
 			path = Chatter;
 			sourceTree = "<group>";
@@ -193,7 +211,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1510;
-				LastUpgradeCheck = 1510;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					6595B1242B39C52F0065C2E5 = {
 						CreatedOnToolsVersion = 15.1;
@@ -234,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6595B1312B39C5300065C2E5 /* Preview Assets.xcassets in Resources */,
+				65192FF92B66A6A500814C89 /* postData.json in Resources */,
 				6595B12D2B39C5300065C2E5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +278,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				651930032B66AC5600814C89 /* PostDetail.swift in Sources */,
 				6595B12B2B39C52F0065C2E5 /* ContentView.swift in Sources */,
+				65192FFF2B66A95700814C89 /* PostList.swift in Sources */,
 				6595B1292B39C52F0065C2E5 /* ChatterApp.swift in Sources */,
+				65192FFB2B66A79400814C89 /* ModelData.swift in Sources */,
+				651930012B66AB1E00814C89 /* PostRow.swift in Sources */,
+				65192FFD2B66A7E500814C89 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +355,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -392,6 +417,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -419,6 +445,7 @@
 				CODE_SIGN_ENTITLEMENTS = Chatter/Chatter.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Chatter/Preview Content\"";
 				DEVELOPMENT_TEAM = NK833WT59C;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -457,6 +484,7 @@
 				CODE_SIGN_ENTITLEMENTS = Chatter/Chatter.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Chatter/Preview Content\"";
 				DEVELOPMENT_TEAM = NK833WT59C;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -494,6 +522,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = NK833WT59C;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
@@ -517,6 +546,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = NK833WT59C;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
@@ -539,6 +569,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = NK833WT59C;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
@@ -561,6 +592,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = NK833WT59C;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
